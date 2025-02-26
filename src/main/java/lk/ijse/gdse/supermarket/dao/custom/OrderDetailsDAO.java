@@ -1,4 +1,6 @@
 package lk.ijse.gdse.supermarket.dao.custom;
 
-public interface OrderDetailsDAO {
+import lk.ijse.gdse.supermarket.dao.SuperDAO;
+
+public interface OrderDetailsDAO extends SuperDAO {
 }

@@ -6,16 +6,6 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-/**
- * --------------------------------------------
- * Author: R.I.B. Shamodha Sahan Rathnamalala
- * GitHub: https://github.com/shamodhas
- * Website: https://shamodha.live
- * --------------------------------------------
- * Created: 10/1/2024 3:49 PM
- * Project: Supermarket
- * --------------------------------------------
- **/
 
 @Getter
 public class DBConnection {
@@ -34,10 +24,6 @@ public class DBConnection {
         return instance == null ? instance = new DBConnection() : instance;
     }
 
-    // Lombok usage
-//    public Connection getConnection(){
-//        return connection;
-//    }
 }
 
 

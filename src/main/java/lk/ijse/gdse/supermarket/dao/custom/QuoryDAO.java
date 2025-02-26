@@ -1,4 +1,4 @@
 package lk.ijse.gdse.supermarket.dao.custom;
 
-public interface ItemDAOimpl {
+public interface QuoryDAO {
 }
